@@ -1,0 +1,37 @@
+*background: [80]#000000
+*foreground: #AAAAAA
+
+!0: black
+*color0:  #000000
+*color8:  #000000
+! 1: red
+*color1:  #dc00000
+*color9:  #dc00000
+! 2: green
+*color2:  #00a017
+*color10: #00a017
+! 3: yellow
+*color3:  #dcd900
+*color11: #dcd900
+! 4: blue
+*color4:  #1177AA
+*color12: #1177AA
+! 5: magenta
+*color5:  #007cdb
+*color13: #007cdb
+! 6: cyan
+*color6:  #00d4dc
+*color14: #00d4dc
+! 7: white
+*color7:  #AAAAAA
+*color15: #AAAAAA
+
+URxvt*geometry:         83x21
+URxvt*font: xft:Terminess Powerline:size=8
+!URxvt*font:            xft:terminus:size=8
+URxvt*urlLauncher:         chromium
+URxvt*scrollBar:        false
+URxvt*scrollBar_right:        true
+URxvt*scrollColor:        #000000
+URxvt*depth:32
+URxvt*iconFile:  /usr/share/icons/Numix-Circle/48x48/applications/utilities-terminal.svg
