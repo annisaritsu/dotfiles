@@ -5,19 +5,29 @@ visualizer_output_name = "my_fifo"
 visualizer_in_stereo = yes
 visualizer_sync_interval = 30
 visualizer_type = spectrum
-visualizer_look = ●▮
+visualizer_look = ●│
+#▮
 playlist_disable_highlight_delay = 2
 message_delay_time = 2
 browser_sort_format = {%l} | {%f}
 song_window_title_format = Ncmpcpp : {%a - }{%t}
-song_columns_list_format = (9)[]{l} (30)[]{a} (62)[]{t}
-playlist_display_mode = columns
+song_list_format = {$8 %l} $2│ {$8%a ─ %t}
+playlist_display_mode = classic
 browser_display_mode = columns
-progressbar_look = =|
-header_visibility = no
-startup_screen = visualizer
-locked_screen_width_part = 60
-ask_for_locked_screen_width_part = no
-display_bitrate = yes
-colors_enabled = no
+progressbar_look = "───"
 
+startup_screen = playlist
+display_bitrate = yes
+colors_enabled = yes
+visualizer_color = red
+progressbar_color = white
+progressbar_elapsed_color = red
+main_window_color = red
+main_window_highlight_color = red
+alternative_ui_separator_color = red
+empty_tag_color = default
+
+header_visibility = no
+statusbar_visibility = yes
+titles_visibility = no
+mouse_support = no
